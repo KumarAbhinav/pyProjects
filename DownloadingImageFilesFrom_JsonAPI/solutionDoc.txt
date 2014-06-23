@@ -1,0 +1,16 @@
+extract.py: 
+
+1. Run this file from the location where you want to store your images.
+2. This will create the folder as per the string after the last '/' in the url.
+3. Then a call has been made to the function to download the images.
+4. download function will be called with parameters like level, minImageFileSize
+5. level will let you to go links inside links and download those images too.
+6. minImageFileSize will let you to consider images greater than a particular value.
+
+
+download.py
+
+1. This will download only jpeg,jpg,gif,png and bmp images.
+2. Recursively call to the same function if the value of level is greater than 0.
+
+
