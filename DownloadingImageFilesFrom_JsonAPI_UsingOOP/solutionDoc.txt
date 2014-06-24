@@ -1,0 +1,17 @@
+oopextract.py: 
+
+1. Run this file from the location where you want to store your images.
+2. Generic Base class is created to connect to API.
+3. Method to create Directory.
+4. This will create the folder as per the string after the last '/' in the url.
+5. Scrape function to extract the links and call made to download Images.
+6. Gaurdian class derived from Base class.
+7. extract method to extract Images links. 
+
+
+download.py
+
+1. This will download only jpeg,jpg,gif,png and bmp images.
+2. Recursively call to the same function if the value of level is greater than 0.
+
+
